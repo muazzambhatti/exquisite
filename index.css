@@ -76,8 +76,12 @@ hr {
 #description {
     margin: 5px;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     width: 425px;
+}
+
+#description h2 {
+    color: #ff1e1e;
 }
 
 #box1 img{
@@ -199,3 +203,69 @@ hr {
     }
 }
 
+.services {
+    /* border: 1px solid white; */
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    color: white;
+}
+
+#services-detail {
+    /* border: 1px solid white; */
+    width: 500px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#services-detail h2 {
+    color: #ff1e1e;
+}
+
+#service-imgs{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 1px solid white; */
+    margin: 2px;
+    text-align: center;
+}
+
+#service-imgs p{
+    margin: 3px;
+}
+
+.img {
+    filter: invert(100%);
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+
+.dinecat {
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    margin: 2px;
+    position: relative;
+    transition: background-color 0.3s;
+    transition: transform 0.8s;
+}
+
+.dinecat:hover {
+    background-color: rgba(255, 30, 30, 0.2);
+}
+
+#booking: {
+    transform: translateX(-100px);
+}
+
+#catering
+
+.below {
+    /* border: 1px solid white; */
+
+}
